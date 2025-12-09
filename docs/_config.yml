@@ -2,10 +2,10 @@ title: iNUX Interactive Documents
 description: An overview about iNUX Jupyter Notebooks and Streamlit Apps for interactive education
 theme: just-the-docs
 
-url: https://gw-inux.github.io/Jupyter-Notebooks/
+url: https://navneetsinha-ns.github.io/Jupyter-Notebooks/
 
 aux_links:
-  Template Repository: https://github.com/gw-inux/Jupyter-Notebooks
+  Template Repository:  https://github.com/navneetsinha-ns/Jupyter-Notebooks
   
 sass:
     sass_dir: _sass
