@@ -5,10 +5,10 @@ description: An overview about iNUX Jupyter Notebooks and Streamlit Apps for int
 theme: just-the-docs
 
 url: "https://navneetsinha-ns.github.io"   # <-- user root ONLY
-baseurl: "/Jupyter-Notebooks"             # <-- repo name with leading slash
+baseurl: "/Jupyter-Notebooks-Test"             # <-- repo name with leading slash
 
 aux_links:
-  "Jupyter-Notebooks on GitHub": https://github.com/navneetsinha-ns/Jupyter-Notebooks
+  "Jupyter-Notebooks on GitHub": https://github.com/navneetsinha-ns/Jupyter-Notebooks-Test
 
 sass:
   sass_dir: _sass
