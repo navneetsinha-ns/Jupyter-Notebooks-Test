@@ -17,7 +17,7 @@ sass:
   style: compressed
 
 # --- Custom colors (optional, used in your repo) ---
-color_scheme: INUX_colors1
+color_scheme: iNUX_colors1
 
 # --- Optional logo ---
 # logo: "/assets/images/INUX_wlogo.png"
