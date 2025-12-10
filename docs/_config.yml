@@ -3,13 +3,13 @@ description: An overview about INUX Jupyter Notebooks and Streamlit Apps for int
 theme: just-the-docs
 
 # --- GitHub Pages URL setup ---
-url: "https://navneetsinha-ms.github.io"   # domain ONLY
+url: "https://navneetsinha-ns.github.io"   # domain ONLY
 baseurl: "/Jupyter-Notebooks-Test"         # repository name
 
 # --- Aux links shown at top right of the theme ---
 aux_links:
   "Template Repository":
-    - "https://github.com/navneetsinha-ms/Jupyter-Notebooks-Test"
+    - "https://github.com/navneetsinha-ns/Jupyter-Notebooks-Test"
 
 # --- SASS settings (required by Just the Docs) ---
 sass:
