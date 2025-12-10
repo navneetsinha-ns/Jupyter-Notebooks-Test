@@ -162,7 +162,10 @@ def infer_figure_url(resource: Dict[str, Any], fig: Dict[str, Any]) -> Optional[
     if not fig_id or not ext:
         return None
 
-    return f"/assets/resources/{base_name}/{base_name}_fig{fig_id}{ext}"
+    # Use Jekyll's relative_url filter so baseurl is handled correctly
+    path = f"/assets/resources/{base_name}/{base_name}_fig{fig_id}{ext}"
+    return f'{{{{ "{path}" | relative_url }}}}'
+
 
 
 def infer_cover_url(resource: Dict[str, Any]) -> Optional[str]:
