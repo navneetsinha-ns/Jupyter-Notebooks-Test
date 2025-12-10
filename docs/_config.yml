@@ -1,19 +1,23 @@
-# docs/_config.yml
-
-title: iNUX Interactive Documents
-description: An overview about iNUX Jupyter Notebooks and Streamlit Apps for interactive education
+title: INUX Interactive Documents
+description: An overview about INUX Jupyter Notebooks and Streamlit Apps for interactive education
 theme: just-the-docs
 
-url: https://navneetsinha-ns.github.io/Jupyter-Notebooks-Test/
-# no baseurl at all
+# --- GitHub Pages URL setup ---
+url: "https://navneetsinha-ms.github.io"   # domain ONLY
+baseurl: "/Jupyter-Notebooks-Test"         # repository name
 
+# --- Aux links shown at top right of the theme ---
 aux_links:
-  Template Repository: https://github.com/navneetsinha-ns/Jupyter-Notebooks-Test
+  "Template Repository":
+    - "https://github.com/navneetsinha-ms/Jupyter-Notebooks-Test"
 
-  
+# --- SASS settings (required by Just the Docs) ---
 sass:
   sass_dir: _sass
   style: compressed
 
-color_scheme: iNUX_colors1
-#logo: "/assets/images/iNUX_wLogo.png"
+# --- Custom colors (optional, used in your repo) ---
+color_scheme: INUX_colors1
+
+# --- Optional logo ---
+# logo: "/assets/images/INUX_wlogo.png"
